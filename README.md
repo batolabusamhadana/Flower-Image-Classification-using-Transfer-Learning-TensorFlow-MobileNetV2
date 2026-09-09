@@ -1,14 +1,14 @@
-# 🌸 Flower Image Classification using Transfer Learning
+# Flower Image Classification using Transfer Learning
 
 A deep learning image classification project built with TensorFlow and TensorFlow Hub that identifies 102 different flower species using transfer learning with MobileNetV2.
 
-## 📌 Project Overview
+## Project Overview
 
 This project uses a pre-trained MobileNetV2 model as a feature extractor and trains a custom neural network classifier to recognize flower species from images.
 
 The model is trained on the Oxford 102 Flowers Dataset and achieves over **77% test accuracy** while significantly reducing training time through transfer learning.
 
-## 🎯 Objectives
+## Objectives
 
 * Explore and preprocess an image classification dataset.
 * Build an efficient TensorFlow data pipeline.
@@ -20,7 +20,7 @@ The model is trained on the Oxford 102 Flowers Dataset and achieves over **77% t
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 **Oxford 102 Flowers Dataset**
 
@@ -38,7 +38,7 @@ Dataset Split:
 
 ---
 
-## 🛠 Technologies Used
+## Technologies Used
 
 * Python
 * TensorFlow
@@ -50,7 +50,7 @@ Dataset Split:
 
 ---
 
-## 🧹 Data Preprocessing
+## Data Preprocessing
 
 The preprocessing pipeline includes:
 
@@ -67,7 +67,7 @@ BATCH_SIZE = 32
 
 ---
 
-## 🧠 Model Architecture
+## Model Architecture
 
 ### Feature Extractor
 
@@ -89,7 +89,7 @@ Dense (102, Softmax)
 
 ---
 
-## ⚙ Training Configuration
+## Training Configuration
 
 | Parameter      | Value                           |
 | -------------- | ------------------------------- |
@@ -101,7 +101,7 @@ Dense (102, Softmax)
 
 ---
 
-## 📈 Results
+## Results
 
 ### Test Performance
 
@@ -117,7 +117,7 @@ Test Loss: 0.8630
 
 ---
 
-## 🔍 Inference Pipeline
+## Inference Pipeline
 
 The project includes custom functions for:
 
@@ -142,7 +142,7 @@ Outputs:
 
 ---
 
-## 📊 Visualization
+## Visualization
 
 The project visualizes:
 
@@ -161,7 +161,7 @@ The project visualizes:
 
 ---
 
-## 💾 Model Saving
+## Model Saving
 
 The trained model is saved using Keras:
 
@@ -180,7 +180,7 @@ loaded_model = tf.keras.models.load_model(
 
 ---
 
-## 🚀 Future Improvements
+## Future Improvements
 
 * Data augmentation
 * Fine-tuning MobileNetV2 layers
@@ -191,7 +191,7 @@ loaded_model = tf.keras.models.load_model(
 
 ---
 
-## 📚 Key Concepts Demonstrated
+## Key Concepts Demonstrated
 
 * Deep Learning
 * Computer Vision
@@ -205,7 +205,7 @@ loaded_model = tf.keras.models.load_model(
 
 ---
 
-## 👩‍💻 Author
+## Author
 
 **Batol Abu Samhadana**
 
